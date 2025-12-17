@@ -3,8 +3,8 @@
 #include<conio.h>
 
 void main(){
-	float a=50.2;
-	float b=2;
+	float a=50;
+	float b=3;
 	float sum=a+b;
 	float sub=a-b;
 	
@@ -12,9 +12,9 @@ void main(){
 	float div=a/b;
 	
 	printf("A= %f \nB: %f",a,b);
-	printf("\nSum= %f",sum);
-	printf("\nSub= %f",sub);
-	printf("\nMul= %f",mul);
-	printf("\nDiv= %f",div);
+	printf("\nSum= %.2f",sum);
+	printf("\nSub= %.2f",sub);
+	printf("\nMul= %.2f",mul);
+	printf("\nDiv= %.1f",div);
 	getch();
 }
